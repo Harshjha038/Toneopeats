@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Toneopeats/static/css/main.6819e133.css",
-    "main.js": "/Toneopeats/static/js/main.d6f0f33f.js",
+    "main.js": "/Toneopeats/static/js/main.1860971d.js",
     "static/js/787.0a0753d9.chunk.js": "/Toneopeats/static/js/787.0a0753d9.chunk.js",
     "index.html": "/Toneopeats/index.html",
     "main.6819e133.css.map": "/Toneopeats/static/css/main.6819e133.css.map",
-    "main.d6f0f33f.js.map": "/Toneopeats/static/js/main.d6f0f33f.js.map",
+    "main.1860971d.js.map": "/Toneopeats/static/js/main.1860971d.js.map",
     "787.0a0753d9.chunk.js.map": "/Toneopeats/static/js/787.0a0753d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6819e133.css",
-    "static/js/main.d6f0f33f.js"
+    "static/js/main.1860971d.js"
   ]
 }
