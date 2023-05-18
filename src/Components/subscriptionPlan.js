@@ -73,7 +73,7 @@ function SubscriptionPlan() {
     return(
         <div className='subscription'>
             <div style={{display:"flex", justifyContent:"start"}}>
-                    <img src='/Images/subscriptionbg.webp' />
+                    <img alt='subscriptionImg' src={process.env.PUBLIC_URL +'/Images/subscriptionbg.webp'} />
                     <h1 style={{position: "absolute",color: "white", marginTop:"90px", marginLeft:"170px"}}>SUBSCRIPTION</h1>
                     <h1 style={{position: "absolute",color: "#80b53b", marginTop:"150px", marginLeft:"240px"}}>PLAN</h1>
                 <div style={{marginLeft:"3%"}}>
@@ -106,7 +106,7 @@ function SubscriptionPlan() {
                             key={index}
                         >
                             <input type='checkBox' value={item.name} onChange={(e) => handleSelect(e)}/>
-                            <img className='dishes' src={item.images}/>
+                            <img alt='dish' className='dishes' src={process.env.PUBLIC_URL +item.images}/>
                             <p>{item.name}</p>
                         </div>
                     )) : !veg && nonVeg ? nonVegDishes.map((item, index) => (
@@ -115,7 +115,7 @@ function SubscriptionPlan() {
                             key={index}
                         >
                             <input type='checkBox' value={item.name} onChange={(e) => handleSelect(e)}/>
-                            <img className='dishes' src={item.images}/>
+                            <img alt='dish' className='dishes' src={process.env.PUBLIC_URL +item.images}/>
                             <p>{item.name}</p>
                         </div>
                     )) : veg && nonVeg ? dishes.map((item, index) => (
@@ -124,7 +124,7 @@ function SubscriptionPlan() {
                             key={index}
                         >
                             <input type='checkBox' value={item.name} onChange={(e) => handleSelect(e)}/>
-                            <img className='dishes' src={item.images}/>
+                            <img alt='dish' className='dishes' src={process.env.PUBLIC_URL +item.images}/>
                             <p>{item.name}</p>
                         </div>
                     )): vegDishes.map((item, index) => (
@@ -133,7 +133,7 @@ function SubscriptionPlan() {
                             key={index}
                         >
                             <input type='checkBox' value={item.name} onChange={(e) => handleSelect(e)}/>
-                            <img className='dishes' src={item.images}/>
+                            <img alt='dish' className='dishes' src={process.env.PUBLIC_URL +item.images}/>
                             <p>{item.name}</p>
                         </div>
                     ))}

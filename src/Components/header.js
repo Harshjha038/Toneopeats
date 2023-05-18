@@ -7,7 +7,7 @@ function Header() {
     return(
         <>
             <div className='header'>
-                <a className="logo" href="https://toneopeats.com/"><img src="/Images/logo.png" /></a>
+                <a className="logo" href="https://toneopeats.com/"><img alt='logo' src={process.env.PUBLIC_URL +"/Images/logo.png"} /></a>
                     <ul style={{display:"flex", listStyle:"none" }}>
                         <li style={{marginRight:"25px", color:"#80b53b"}}><b>Meal Subscription</b></li>
                         <li>Menu</li>

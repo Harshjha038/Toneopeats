@@ -18,7 +18,7 @@ function Footer() {
     return(
         <div className="footer">
             <div>
-                <a className="logo" href="https://toneopeats.com/"><img src="/Images/logo.png" /></a>
+                <a className="logo" href="https://toneopeats.com/"><img alt="logo" src={process.env.PUBLIC_URL +"/Images/logo.png"} /></a>
                 <div className="contactDetails">
                     {data.map((item, index) => {
                         return(
@@ -33,11 +33,11 @@ function Footer() {
             
             <div className="social">
                 <div style={{display:"flex", justifyContent:"center", marginTop: "20px"}}>
-                    <a href=""><img className="icons" src="/Images/social/instagram.png"/></a>
-                    <a href=""><img className="icons" src="/Images/social/facebook.png"/></a>
-                    <a href=""><img className="icons" src="/Images/social/linkedin.png"/></a>
-                    <a href=""><img className="icons" src="/Images/social/twitter.png"/></a>
-                    <a href=""><img className="icons" src="/Images/social/youtube.png"/></a>
+                    <a href=""><img alt="social" className="icons" src={process.env.PUBLIC_URL +"/Images/social/instagram.png"}/></a>
+                    <a href=""><img alt="social" className="icons" src={process.env.PUBLIC_URL +"/Images/social/facebook.png"}/></a>
+                    <a href=""><img alt="social" className="icons" src={process.env.PUBLIC_URL +"/Images/social/linkedin.png"}/></a>
+                    <a href=""><img alt="social" className="icons" src={process.env.PUBLIC_URL +"/Images/social/twitter.png"}/></a>
+                    <a href=""><img alt="social" className="icons" src={process.env.PUBLIC_URL +"/Images/social/youtube.png"}/></a>
                 </div>
             <p>© Copyright All rights reserved by TONEOPEATS</p>
             </div>

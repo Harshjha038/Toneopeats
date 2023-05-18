@@ -26,7 +26,7 @@ function Testimonial () {
                     testimonial.map((item, index) => {
                         return (
                             <div style={{display:"flex"}} key={index}>
-                                <img className='testimonialImages' alt='testimonials' src={item.image} />
+                                <img className='testimonialImages' alt='testimonials' src={process.env.PUBLIC_URL +item.image} />
                                 <div>
                                     <p style={{width:"200px"}}>{item.description}</p>
                                     <p>{item.name}</p>

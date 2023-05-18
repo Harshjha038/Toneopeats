@@ -92,7 +92,7 @@ function OurMenu() {
                         className="slide"
                         key={index}
                     >
-                      <img src={item.images}/>
+                      <img alt='dishes' src={process.env.PUBLIC_URL + item.images}/>
                       <p>{item.name}</p>
                       <p className='kcal'>{item.id}</p>
                     
@@ -100,7 +100,7 @@ function OurMenu() {
                     ))}
                 </div>
             </div>
-            <img className='comingSoonImage' alt='comingSoon' src='/Images/Coming_Soonf.jpg'/>
+            <img className='comingSoonImage' alt='comingSoon' src={process.env.PUBLIC_URL +'/Images/Coming_Soonf.jpg'}/>
             <h1 style={{textAlign:"start",marginLeft:"138px"}}>Health & Taste At</h1>
             <h1 style={{textAlign:"start",marginLeft:"138px", color:"#80b53b"}}>Your Doorstep</h1>
             <div style={{display: "flex", justifyContent:"flex-end"}}>
@@ -115,7 +115,7 @@ function OurMenu() {
                     )}
                 </div>
                 <div className='bannerImg'>
-                    <img alt='bannerimg' src='/Images/bannerimg.webp'/>
+                    <img alt='bannerimg' src={process.env.PUBLIC_URL +'/Images/bannerimg.webp'}/>
                 </div>
             </div>
         </>
