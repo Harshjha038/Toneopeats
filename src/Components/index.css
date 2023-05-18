@@ -1,0 +1,192 @@
+.base{
+    background-image: url("https://toneopeats.com/public/img/bgpatern.webp");
+}
+
+/* Header */
+.header{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo img{
+    height: 46px;
+}
+
+/* OurMenu */
+
+.slideshow {
+    margin-top: 20px;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #F8FBF5;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+    height: 300px;
+    width: 25%;
+}
+
+.kcal{
+    background-color: #fff;
+    padding: 1px 11px;
+    margin-left: 135px;
+    width: fit-content;
+    border-radius: 60px;
+    box-shadow: 0px 5px 6px rgb(214 219 210 / 41%);
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.comingSoonImage{
+    margin-top: 60px;
+    position: relative;
+    justify-content: center;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.benefits{
+    display: flex;
+}
+
+.bannerImg img{
+    width: 85%;
+}
+
+/* testimonials */
+
+.testimonials{
+    background-color: #F8FBF5;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+}
+
+.testimonialImages{
+    height: 270px;
+}
+
+.footer{
+    padding-top: 50px;
+    background-color: #F8FBF5;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.contactDetails{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    border-top: rgb(183, 181, 181) 1px solid;
+}
+
+.social .icons{
+    height: 15px;
+    border:rgb(183, 181, 181) 1px solid;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 5x;
+}
+
+/* Subscription */
+
+.subscription{
+    background-color: #fff;
+    border: 1px solid #E8EEE0;
+    padding-bottom: 30px;
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 6%);
+    width: 1200px;
+    display: inline-block;
+}
+
+.subscription img{
+    width: 50%;
+    height: 320px;
+}
+
+.price{
+    display: inline-block;
+    border: 1px solid #e8eee0;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 5%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.price input{
+    position: absolute;
+    margin-left: -120px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.selectPreference{
+    display: block;
+    border: 1px solid #e8eee0;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 5%);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    background-color: #f8fbf5;
+    text-align: left;
+    
+}
+
+.preferenceButtons{
+    color: #3A3A3A;
+    margin-right: 10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    min-width: 110px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 5%);
+    border-radius: 7px;
+}
+
+.subscribeDishes{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e8eee0;
+}
+
+.selectDishes{
+    display: inline-block;
+    border: 1px solid #e8eee0;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 5%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.selectDishes .dishes{
+    width: 50%;
+    height: 50%;
+}
+
+.selectDishes input{
+    position: absolute;
+    margin-left: -55px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+

@@ -1,5 +1,6 @@
 {
   "name": "toneopeats",
+  "homepage": "https://harshjha038.github.io/Toneopeats",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,6 +25,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "overrides": {
+   "webpack":"5.82.1"
   },
   "browserslist": {
     "production": [
